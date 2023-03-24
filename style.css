@@ -1,0 +1,286 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #c5e4e7;
+  font-family: Space Mono;
+}
+
+.main-logo {
+  padding-left: 144px;
+  padding-top: 50px;
+}
+
+main {
+  background-color: #ffffff;
+  width: 375px;
+  height: 789px;
+  margin-top: 40px;
+  border-radius: 25px 25px 0px 0px;
+}
+
+.bill {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+  color: #5e7a7d;
+  padding: 32px 0px 0px 32px;
+}
+
+.input-for-num {
+  width: 311px;
+  height: 48px;
+  border-radius: 5px;
+  border-style: none;
+  text-align: right;
+  background-color: #f3f9fa;
+  font-family: Space Mono;
+  margin: 6px 0px 0px 32px;
+  font-weight: 700;
+  font-size: 36px;
+  color: #00474b;
+  line-height: 35px;
+}
+
+.input-for-num {
+  background: url(./images/icon-dollar.svg) no-repeat left center;
+}
+
+.icon-person {
+  background: url(./images/icon-person.svg) no-repeat left center;
+}
+
+.tip-heading {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+  color: #5e7a7d;
+  padding: 32px 0px 0px 32px;
+}
+
+.container-for-percentage {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 16px;
+  margin-left: 32px;
+  gap: 16px;
+}
+
+.percentage {
+  width: 146px;
+  height: 48px;
+  border-radius: 5px;
+  border-style: none;
+  background-color: #00474b;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 35px;
+  color: #ffffff;
+}
+
+#custom {
+  text-align: right;
+  background-color: #f3f9fa;
+  color: #547878;
+}
+
+.custom-button {
+  border-style: none;
+}
+
+.num-ppl {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+  color: #5e7a7d;
+  padding: 32px 0px 0px 32px;
+}
+
+.input-output {
+  background-color: #00474b;
+  width: 327px;
+  height: 257px;
+  border-radius: 15px;
+  margin: 32px 0px 0px 24px;
+}
+
+.input-output div {
+  display: flex;
+}
+
+.left-side {
+  margin-left: 24px;
+  padding-top: 39px;
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+span {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 19px;
+  color: #7f9d9f;
+}
+
+.left-side p {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 23px;
+  color: #ffffff;
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+  margin-left: 209px;
+  margin-top: -50%;
+  gap: 21px;
+  padding-top: 40px;
+}
+
+.right-side p {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 47px;
+  color: #26c2ae;
+}
+
+.reset {
+  width: 281px;
+  height: 48px;
+  border-radius: 5px;
+  background-color: #26c2ae;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 29px;
+  text-align: center;
+  color: #00474b;
+  border-style: none;
+  margin-top: 36px;
+  margin-left: 24px;
+}
+
+.percentage :activ {
+  background-color: red;
+}
+
+#span {
+  margin-left: 40px;
+  color: #e17457;
+  opacity: 0;
+}
+
+@media screen and (min-width: 1440px) {
+  body {
+    width: 1440px;
+    height: 1024px;
+  }
+
+  .main-logo {
+    padding-left: 677px;
+    padding-top: 163px;
+  }
+
+  main {
+    background-color: #ffffff;
+    width: 920px;
+    height: 481px;
+    margin-top: 87px;
+    border-radius: 25px;
+    margin-left: 260px;
+  }
+
+  .container-for-percentage {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 16px;
+    margin-left: 48px;
+    gap: 14px;
+    width: 50%;
+  }
+
+  .bill {
+    padding: 45px 0px 0px 48px;
+  }
+
+  .input-for-num {
+    width: 379px;
+    height: 48px;
+    margin: 6px 0px 0px 48px;
+    font-size: 24px;
+    color: #00474b;
+    line-height: 35px;
+    background-color: #f3f9fa;
+    /* border: 1px solid #26C2AE; */
+  }
+
+  .tip-heading {
+    padding: 40px 0px 0px 48px;
+  }
+
+  .num-ppl {
+    padding: 40px 0px 0px 48px;
+  }
+
+  .percentage {
+    width: 117px;
+  }
+
+  .input-output {
+    background-color: #00474b;
+    width: 413px;
+    height: 417px;
+    border-radius: 15px;
+    margin: -400px 0px 0px 467px;
+  }
+
+  .left-side {
+    margin-left: 40px;
+    padding-top: 56px;
+    gap: 53px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+
+  .right-side {
+    display: flex;
+    flex-direction: column;
+    margin-left: 280px;
+    margin-top: -48%;
+    gap: 55px;
+    padding-top: 40px;
+  }
+
+  .reset {
+    width: 333px;
+    background-color: #26c2ae;
+    margin-top: 134px;
+    margin-left: 40px;
+  }
+
+  .percentage,
+  .custom-button,
+  .reset,
+  .input-for-num:hover {
+    cursor: pointer;
+  }
+
+  .percentage:hover {
+    background-color: #9fe8df;
+    color: #00474b;
+  }
+
+  .reset:hover {
+    background-color: #9fe8df;
+  }
+
+  .input-for-num:hover {
+    background-color: #f3f9fa;
+    border: 2px solid #26c2ae;
+  }
+}
